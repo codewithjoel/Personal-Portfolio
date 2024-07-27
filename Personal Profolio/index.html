@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">JD</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id = "menu">
+                <li>
+                    <a href ="#">Home</a>
+                </li>
+                <li>
+                    <a href ="#">Skills</a>
+                </li>
+                <li>
+                    <a href ="#">Experince</a>
+                </li>
+                <li>
+                    <a href ="#" class="button" >Contact</a>
+                </li>
+            </ul>
+            <a href="#"class="moblie-toggle" onClick ="toggleMoblieMenu()">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero contanier">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi My Name</small>
+                        <div class="name">Joel Daniels</div>
+         
+                    </h1>
+                    <p>Welcome to my portfolio! I'm a third-year Mechanical Engineering student with 
+                        a passion for technology and innovation. <span>As I delve deeper into the world
+                         of software engineering, I'm driven by the desire to create impactful solutions</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black"> 
+                            View Resume
+                        </a>
+                        <a href="mailto:joeldaniels1418@gmail.com" class="button white"> 
+                            Connect 
+                        </a>
+                    </div>
+                    <div class="social-links">
+						<a href="#">
+							<img src="./images/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/joel-daniels-b73228267/">
+							<img src="./images/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+                </div>
+
+            </div>
+            <div class="hero-yellow">
+                <img src="./images/hero-image.png" 
+                alt="Joel Daniels" width="100%">
+            </div>
+
+        </section>
+        <section class="logos contaniner"> 
+            <h2>
+                Skills
+            </h2>
+
+            <div class="marquee">
+                <div class="track">
+                    <img src="./images/html.png" alt="HTML" width="128" />
+					<img src="./images/css.png" alt="CSS" width="128" />
+					<img src="./images/javascript.png" alt="JS" width="128" />
+					<img src="./images/vscode.png" width="128" alt="VS Code" />
+					<img src="./images/python.png" width="128" alt="Python" />
+					<img src="./images/html.png" alt="HTML" width="128" />
+					<img src="./images/css.png" alt="CSS" width="128" />
+					<img src="./images/javascript.png" alt="JS" width="128" />
+					<img src="./images/vscode.png" width="128" alt="VS Code" />
+					<img src="./images/python.png" width="128" alt="Python" />
+                    <img src="./images/html.png" alt="HTML" width="128" />
+					<img src="./images/css.png" alt="CSS" width="128" />
+					<img src="./images/javascript.png" alt="JS" width="128" />
+					<img src="./images/vscode.png" width="128" alt="VS Code" />
+					<img src="./images/python.png" width="128" alt="Python" />
+                </div>
+            </div>
+
+        </section>
+        <section >
+            <h2>
+                About Me
+            </h2>
+            <div class="holder-blue">
+                <div class="aboutme-column">
+					<h3>A bit about me</h3>
+					<p>
+						I'm currently honing my skills through a coding bootcamp and an upcoming technical interview prep course. 
+                        I'm excited to bring my diverse background and fresh perspectives to the tech industry, with a strong 
+                        commitment to increasing representation and excellence among Black minorities in tech. 
+                    </p>
+                    <p> 
+                        Explore my projects 
+                        and join me on this journey of growth and discovery!My goal is to secure a Software Engineering internship for
+                         the summer of 2025, where I can apply my skills, learn from industry professionals, and make meaningful contributions 
+                         to innovative projects.
+					</p>
+                    <p>
+                        I invite you to explore my portfolio, check out my projects, and join me on this exciting journey into the tech 
+                        industry.Thank you for visiting my site!
+                    </p>
+					
+				</div>
+
+            </div>
+
+        </section>
+        <section>
+            <h4>Experience</h4>
+                <ul>
+                    <li>
+                        Data For Code Hackathon
+                        <p>Participated in a competitive hackathon focused on data-driven solutions, collaborating with a team to develop innovative projects within a limited timeframe.</p>
+                    </li>
+                    <li>
+                        AT&T Technology Academy
+                        <p>Completed an intensive program designed to enhance technical skills and industry knowledge, gaining hands-on experience with the latest technologies and practices.</p>
+                    </li>
+                    <li>
+                        CodePath
+                        <p>Engaged in a rigorous coding bootcamp, learning advanced programming concepts and application development through project-based learning and mentorship.</p>
+                    </li>
+                </ul>
+
+            
+            <div class="container"></div>
+                <div class="slider-wrapper">
+                     <div class="slider">
+                        <img id="slide-1" src="./images/codepath.jpg" alt="3D rendering of an imaginary orange planet in space" />
+                        <img id="slide-2" src="./images/attech.png" alt="3D rendering of an imaginary green planet in space" />
+                        <img id="slide-3" src="./images/data.png" alt="3D rendering of an imaginary blue planet in space" />
+                    </div>
+                        <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                         <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Joel Daniels. All Rights Reserved.</p>
+            <p>
+                <a href="https://www.linkedin.com/in/joel-daniels-b73228267/" target="_blank">LinkedIn</a> |
+                <a href="mailto:joeldaniels1418@gmail.com">Email</a>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
